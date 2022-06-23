@@ -8,7 +8,6 @@ console.log("Meu carro se chama "+meuCarro.nome+" ele tem "+meuCarro.portas+ " p
 var botao = document.querySelector("button[name='salvar']")
 var lista = document.querySelector('ul')
 
-
 botao.addEventListener("click", function(){
     var titulo = document.querySelector("h2[name='ler']")
     var span = document.querySelector("span[name='editar']")
